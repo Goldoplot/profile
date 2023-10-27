@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#profile_picture{
+  border-radius: 50%;
+}
+
+a {
+  font-family: 'Roboto' sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: #6B72E1;
+}
+
+p{
+  padding-bottom: 30px;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 40%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-white > a {
+background-color: #6B72E1;
+color: white;
+padding: 14px;
+margin: 10px;
+border-radius: 15px;
+}
+
+
+#uwu{
+  background-image: url(uwu.jpeg);
+  background-position: center;
+  background-size: 800px;
+
+}
+
+.card-white > a:hover{
+  color:white;
+  background-color: black;
+}
+
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+
+.icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.icons > li {
+  display: inline;
+  font-size: 50px;
+}
+
+.icons i {
+  font-size: 50px;
+  padding: 10px;
+  color: black;
+  opacity: 0.2;
+}
+
+.icons i:hover{
+  color: red;
+  opacity: 0.8;
+}
